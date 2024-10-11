@@ -1,0 +1,263 @@
+
+.role-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .role-selection button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .role-selection button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  
+  .login-form, .dashboard {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .login-form h2, .dashboard h1 {
+    text-align: center;
+  }
+  
+  .login-form form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .login-form form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  .login-form input,
+  .login-form select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f6f9;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+    background-color: #23272b;
+    text-align: center;
+  }
+  
+  .sidebar-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  .sidebar-link {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+  }
+  
+  .sidebar-link .icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #495057;
+  }
+  
+  .sidebar-link.active {
+    background-color: #007bff;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .logout-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  main {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  
+  
+  .crear-usuarios-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crear-usuarios-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .crear-usuarios-form form div {
+    margin-bottom: 15px;
+  }
+  
+  .crear-usuarios-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  .crear-usuarios-form input,
+  .crear-usuarios-form select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .crear-usuarios-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .crear-usuarios-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para la Página de Inicio de Sesión */
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+  }
+  
